@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A2FEF12AFDD65F47E3B7BDCD70AC0D0F061C03DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A2FEF12AFDD65F47E3B7BDCD70AC0D0F061C03DB" : 0,
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : 0,
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : 0,
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C8C8AA6B-01F8-43FF-95FC-5CCA7EB5C17A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A2FEF12AFDD65F47E3B7BDCD70AC0D0F061C03DB" : "YS_RACtest\/",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : "YS_RACtest\/submodule\/ReactiveCocoa\/",
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : "YS_RACtest\/submodule\/ReactiveCocoa\/Carthage\/Checkouts\/Result\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : "YS_RACtest\/submodule\/ReactiveCocoa\/Carthage\/Checkouts\/xcconfigs\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YR_RAC_test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YR_RAC_test\/YR_RAC_test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveCocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antitypical\/Result.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956D2B21DD155C49504BB67697A67F7C5351A353"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/13hoop\/YS_RACtest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A2FEF12AFDD65F47E3B7BDCD70AC0D0F061C03DB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7"
+    }
+  ]
+}
