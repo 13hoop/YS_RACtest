@@ -13,6 +13,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *userNameTF;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTF;
+@property (weak, nonatomic) IBOutlet UIButton *LogIn;
 
 @property (assign, nonatomic) BOOL isStatusHidden;
 
@@ -43,6 +44,7 @@
         return @([self isValidxPassword: text]);
     }];
     
+    
     // 将validUserNameSG信号输出应用到输入框的backgroundColor上
     [[validUserNameSG map:^id(NSNumber *userNameValid) {
         return [userNameValid boolValue]? [UIColor clearColor] : [UIColor yellowColor];
@@ -54,6 +56,16 @@
         [validPasswordSG map:^id(NSNumber *passwordValid) {
             return [passwordValid boolValue]? [UIColor clearColor] : [UIColor yellowColor];
         }];
+    
+    
+    // signal聚合 - combineLast: 可以聚合任意数量的信号 - userNameSG 和 passwordSG 聚合
+    RACSignal *logInActionSG = [RACSignal combineLatest:@[validUserNameSG, validPasswordSG] reduce:^id(NSNumber *usernameValid, NSNumber *passwordValid){
+        return @([usernameValid boolValue] && [passwordValid boolValue]);
+    }];
+    // 聚合的signal － 按钮enable属性
+    [logInActionSG subscribeNext:^(NSNumber *logInActive) {
+        self.LogIn.enabled = [logInActive boolValue];
+    }];
 }
 
 - (void) test001 {

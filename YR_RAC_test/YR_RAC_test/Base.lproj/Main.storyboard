@@ -56,6 +56,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="LogIn" destination="o4H-9r-pEq" id="46s-Jb-P44"/>
                         <outlet property="passwordTF" destination="GoA-bl-7wl" id="rvg-nY-ACb"/>
                         <outlet property="userNameTF" destination="yOA-eI-183" id="adI-6m-2Dg"/>
                     </connections>
