@@ -42,9 +42,6 @@
                                     <constraint firstAttribute="height" constant="30" id="43w-5f-Ixf"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="logInBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t80-Q9-fK5"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

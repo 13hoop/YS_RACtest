@@ -17,6 +17,7 @@
 		B41E323E1C7EDF3E00CD65C9 /* YR_RAC_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E323D1C7EDF3E00CD65C9 /* YR_RAC_testUITests.m */; };
 		B47FBD231C7EFC5600D4EF2C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47FBD211C7EFC5600D4EF2C /* Result.framework */; };
 		B47FBD241C7EFC5600D4EF2C /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47FBD221C7EFC5600D4EF2C /* ReactiveCocoa.framework */; };
+		B4AB10E31C81796B00B7E68F /* YRServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AB10E21C81796B00B7E68F /* YRServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B41E323F1C7EDF3E00CD65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B47FBD211C7EFC5600D4EF2C /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		B47FBD221C7EFC5600D4EF2C /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = ../Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		B4AB10E11C81796B00B7E68F /* YRServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRServer.h; sourceTree = "<group>"; };
+		B4AB10E21C81796B00B7E68F /* YRServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				B41E32191C7EDF3D00CD65C9 /* main.m */,
+				B4AB10E11C81796B00B7E68F /* YRServer.h */,
+				B4AB10E21C81796B00B7E68F /* YRServer.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				B41E32201C7EDF3D00CD65C9 /* ViewController.m in Sources */,
 				B41E321D1C7EDF3D00CD65C9 /* AppDelegate.m in Sources */,
 				B41E321A1C7EDF3D00CD65C9 /* main.m in Sources */,
+				B4AB10E31C81796B00B7E68F /* YRServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
